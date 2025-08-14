@@ -20,7 +20,6 @@
 | -------------- | ------------------- | --------- |
 | React          | Node.js + Express   | MySQL     |
 
->>>>>>> 1990db2dcd9e660ff57bef5710471d4cce21a98f
 =======
 # PastryPro--Bakery-POS-System
 I designed PastryPro during my summer vacation in 2025 after completing my 6th semester to improve my skills with SQL.
@@ -100,4 +99,3 @@ Express.js
 Database:
 
 MySQL
->>>>>>> e5d148bc9420c8170597c5f4dda4bbaa0f5a811b
