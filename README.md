@@ -9,6 +9,8 @@ PastryPro provides real-time insights into sales, top products, and low-stock al
 I designed PastryPro during my summer vacation in 2025 after completing my 6th semester to improve my SQL and full-stack development skills.
 
 ✨ Features
+
+
 📊 Dashboard
 
 Total Orders – Count of all orders placed
