@@ -65,7 +65,7 @@ Frontend:
 
 React.js
 
-Tailwind CSS
+CSS
 
 Backend:
 
