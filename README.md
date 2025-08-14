@@ -29,6 +29,8 @@ A Modern POS System for Small Bakeries
 PastryPro is a lightweight and offline-capable Point of Sale (POS) system designed for small bakeries. It helps manage orders, customers, staff, and inventory with a clean and easy-to-use dashboard. I designed this project during my summer vacation to practice working with MySQL and build a complete full-stack application.
 
 ✨ Features
+
+
 📊 Dashboard
 
 Total Orders – Shows the total number of orders placed.
