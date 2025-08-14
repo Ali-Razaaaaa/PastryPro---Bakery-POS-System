@@ -1,0 +1,202 @@
+.customers-main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../../../assets/background.jpg');
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: -30px;
+}
+
+.customers-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: transparent;
+}
+
+.customers-header h1 {
+  color: white;
+  margin-left: 10px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+}
+
+.customers-header-section {
+  display: flex;
+  position: sticky;
+  top: 60px;
+  align-items: center;
+  margin-bottom: 30px;
+  background: transparent;
+  z-index: 99;
+}
+
+.customers-add-button {
+  margin-top: 5px;
+  margin-left: 20px;
+  background: linear-gradient(135deg, #f4a261 0%, #e76f51 100%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(244, 162, 97, 0.3);
+}
+
+.customers-controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.customers-user-icon-container {
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  bottom: 80px;
+  position: absolute;
+}
+
+.customers-button-container {
+  margin-left: 200px;
+}
+
+.customers-data-table-wrapper {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 600px;
+}
+
+.customers-data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.customers-data-table thead {
+  display: block;
+  width: 100%;
+  background: transparent;
+  flex-shrink: 0;
+}
+
+.customers-data-table thead tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.customers-data-table tbody {
+  display: block;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  background: transparent;
+}
+
+.customers-data-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.customers-data-table th {
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 18px 15px;
+  text-align: left;
+  border: none;
+  position: relative;
+}
+
+.customers-data-table th::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #f4a261, #e76f51);
+}
+
+.customers-data-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+  font-size: 0.875rem;
+  color: #2d3748;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.customers-data-table tbody tr:hover {
+  background: rgba(244, 162, 97, 0.1);
+  box-shadow: 0 4px 12px rgba(244, 162, 97, 0.2); /* same size shadow to avoid jump */
+}
+
+.customers-edit-action-btn {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  color: white;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  width: 90px;
+  transition: background 0.3s ease;
+}
+
+.customers-edit-action-btn:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.customers-delete-action-btn {
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+  color: white;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.customers-delete-action-btn:hover {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+}
+
+.customers-no-data-message {
+  text-align: center;
+  padding: 50px 20px;
+  font-style: italic;
+  border-radius: 10px;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 1.2rem;
+}

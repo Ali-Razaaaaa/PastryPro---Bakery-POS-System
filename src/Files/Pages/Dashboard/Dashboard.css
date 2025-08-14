@@ -1,0 +1,42 @@
+h1 {
+    margin-left: 10px;
+}
+
+.container-dash .Dash-container {
+    display: flex;
+    align-items: center;
+}
+
+.Dash-container .search-bar {
+    padding-left: 360px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.container-dash {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 0px;
+    position: relative;
+    flex-direction: column;
+
+    /* OrderDetail jaisa background theme - bas yahi change kiya */
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../../../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-dash .boxes-container {
+    display: flex;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.container-dash > * {
+    position: relative;
+    z-index: 2;
+}
