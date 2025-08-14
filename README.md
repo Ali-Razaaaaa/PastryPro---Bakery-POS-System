@@ -20,7 +20,6 @@
 | -------------- | ------------------- | --------- |
 | React          | Node.js + Express   | MySQL     |
 
-=======
 # PastryPro--Bakery-POS-System
 I designed PastryPro during my summer vacation in 2025 after completing my 6th semester to improve my skills with SQL.
 PastryPro 🍰
